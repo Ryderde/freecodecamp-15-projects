@@ -1,0 +1,24 @@
+h1{
+  margin:20% 35%;
+  margin-bottom: 0;
+}
+
+.number{
+  margin: 10% 40%;
+  font-size: 2.5rem;
+  font-family: monospace;
+  color: yellow;
+}
+
+.btns{
+  display: flex;
+  justify-content:space-around ;
+}
+
+button{
+  border-radius: 10px;
+  height:25px;
+}
+
+
+

@@ -1,0 +1,26 @@
+body{
+  background: aliceblue;
+  margin: 0
+}
+
+Nav{
+  display: flex;
+  justify-content: space-around;
+  background: hsla(158, 64%, 48%, 0.69);
+  
+}
+
+.currBgColor{
+  margin:20% ;
+}
+
+.colorChanger{
+  margin: 0px 30%
+}
+
+button{
+  width: 80px;
+  height: 40px;
+  border-radius:10%;
+  background: rgba(140, 149, 247, 1)
+}

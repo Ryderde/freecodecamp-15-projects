@@ -1,0 +1,57 @@
+body{
+  margin: 0;
+  background: #36383B;
+  font-size: 24px;
+}
+.navBar{
+  background: #9EA4E0;
+  display:flex;
+  width: 100%;
+  justify-content: space-between;
+  
+}
+span{
+  color:#1F59CB;
+}
+.pages{
+  display: flex;
+
+}
+.pages div{
+  margin:5px;
+}
+
+.iconContainer{
+  display: flex;
+}
+.iconContainer *{
+  margin:5px;
+}
+.icons img{
+  width: 20px;
+}
+
+.menubtn{
+  display: none;
+  margin-right: 12px
+}
+
+@media screen and (max-width: 600px){
+  .iconContainer, .pages{
+  display: none;
+}
+  .menubtn{
+    display: block;
+  }
+  body{
+    font-size: 18px
+  }
+  .brand{
+    margin-top: 10px
+  }
+}
+
+.blockclass{
+  display:block;
+  line-height: 2rem;
+  }
